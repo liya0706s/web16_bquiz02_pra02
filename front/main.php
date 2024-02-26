@@ -139,7 +139,7 @@
     $(".tag").on('click', function(){
         $(".tag").removeClass('active')
         $(this).addClass('active')
-        let id = $(this).attr(id).replace("sec","section");
+        let id = $(this).attr('id').replace("sec","section");
         $("section").hide();
         $("#"+id).show();
     })
